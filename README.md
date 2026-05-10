@@ -72,7 +72,7 @@ Java, Spring Boot, Spring Data JPA, PostgreSQL, Maven
 
 ---
 
-#  Supply Chain Management System
+##  Supply Chain Management System
 
 ### Technologies Used
 
