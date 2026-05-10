@@ -50,7 +50,7 @@ Aspiring Java Backend Developer with hands-on experience in developing backend a
 
 # 📌 Projects
 
-## 1️⃣ Course Enrollment Management System
+##  Course Enrollment Management System
 
 ### Technologies Used
 
@@ -72,35 +72,60 @@ Java, Spring Boot, Spring Data JPA, PostgreSQL, Maven
 
 ---
 
-## 2️⃣ Employee Management System
+#  Supply Chain Management System
 
 ### Technologies Used
 
-Java, Spring Boot, PostgreSQL, Spring Data JPA
+Java, Spring Boot, Spring Data JPA, PostgreSQL, Maven, Postman
+
+### Description
+
+Developed a backend-based Supply Chain Management System using Spring Boot and PostgreSQL to manage customers, suppliers, products, and orders efficiently through RESTful APIs.
 
 ### Features
 
-* Add employee
-* Update employee details
-* Delete employee records
-* Fetch employee by ID
-* RESTful API implementation
+* Implemented CRUD operations for Customers, Suppliers, Products, and Orders.
+* Developed REST APIs using Spring Boot.
+* Managed database operations using Spring Data JPA.
+* Created entity relationships using JPA annotations like `@OneToMany` and `@ManyToOne`.
+* Added exception handling using Global Exception Handler.
+* Tested APIs using Postman.
+* Integrated PostgreSQL database for persistent data storage.
 
----
+### Modules
 
-## 3️⃣ Hospital Management System
+* Customer Management
+* Supplier Management
+* Product Management
+* Order Management
+* Exception Handling
 
-### Technologies Used
+### Project Highlights
 
-Java, JDBC, PostgreSQL
+* Layered Architecture implementation:
 
-### Features
+  * Controller Layer
+  * Service Layer
+  * DAO Layer
+  * Repository Layer
+* Used ResponseStructure for API responses.
+* Implemented custom exception handling for invalid IDs.
+* Followed RESTful API design principles.
 
-* Patient record management
-* CRUD operations using JDBC
-* Secure database queries using PreparedStatement
-* Exception handling
+### Key Functionalities
 
+* Add, update, delete, and fetch customer details.
+* Manage supplier and product information.
+* Create and manage orders.
+* Retrieve records by ID.
+* Database relationship mapping between entities.
+
+### Tools & Platforms
+
+* Eclipse IDE
+* Postman
+* Maven
+* PgAdmin
 ---
 
 # 🎓 Education
